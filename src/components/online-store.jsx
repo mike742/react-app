@@ -47,7 +47,8 @@ class OnlineStore extends Component {
         console.log('total: ', this.state.counters.length);
         return (
             <React.Fragment>
-                <Navbar totalCounters={this.state.counters.filter((c) => c.value > 0).length}></Navbar>
+                <h1>Hello React</h1>
+                {/* <Navbar totalCounters={this.state.counters.filter((c) => c.value > 0).length}></Navbar>
                 <hr />
                 <Counters
                     counters={this.state.counters}
@@ -56,7 +57,7 @@ class OnlineStore extends Component {
                     onDelete={this.handleDelete}
                     onIncrement={this.handleIncrement}
                     onDecrement={this.handleDecrement}
-                ></Counters>
+                ></Counters> */}
             </React.Fragment>
         );
     }
